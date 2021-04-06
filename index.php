@@ -9,12 +9,12 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Chuck Severance's Resume Registry 0118a063</title>
+    <title>333494fc</title>
     <?php require_once "bootstrap.php"; ?>
 </head>
 <body>
 <div class="container">
-    <h2>Chuck Severance's Resume Registry</h2>
+    <h2>Kaustubh Resume Registry</h2>
     <?php
     if (isset($_SESSION['name'])) {
         echo '<p><a href="logout.php">Logout</a></p>';
